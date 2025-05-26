@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    font-family: aerial;
+    border:border-box;
+
+
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    display:flex;
+    color:aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height:50px;
+    width: 130px;
+
+}
+.logo{
+    background-image: url("ama.jpg");
+    background-size: cover;
+    height:55px;
+    width: 1oo%px;
+    
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+     border:1.5px solid white;
+}
+.add-first{
+    color:#cccccc;
+    font-size: .88rem;
+    margin-left: 16.8px;
+    
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.add-icon{
+    display:flex;
+    
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 106, 0);
+    width:650px;
+    height:40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #e3dbdb;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: 1.2rem;
+    /* border: none; */
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(221, 192, 45);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: rgb(37, 34, 34);
+}
+span{
+    font-size: 0.75rem;
+}
+.Acc{
+    font-size: .9rem;
+    font-weight: 900;
+}
+.nav-search:hover{
+    border:1.5px solid orange;
+}
+.nav-cart i{
+  font-size: 2rem;
+}
+.nav-cart{
+    font-weight: bold;
+}
+/** Panel **/
+.panel{
+    height: 40px;
+    background-color: rgb(42, 46, 53);
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-opps p {
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+.panel-opps{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-electronics{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** Hero-section**/
+.hero-section{
+    background-image: url("body.jpg");
+    height: 450px;
+    background-size: cover;
+}
+.shop-section{
+
+}
+/** box design **/
+.shop-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 30px;
+    margin-top: 10px;
+}
+.img1{
+    background-image: url("Gaming.jpg");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+.box1_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box1_content p{
+    color: rgb(112, 45, 175);
+}
+/** box2 **/
+.img2{
+    background-image: url("toy.jpg");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+.box2_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2_content p{
+    color: rgb(112, 45, 175);
+}
+/**box3**/
+.img3{
+    background-image: url("bag.jpg");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+.box3_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box3_content p{
+    color: rgb(112, 45, 175);
+    margin-bottom: 70px;
+  
+}
+/** Box4 **/
+.img4{
+    background-image: url("shir.png");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    background-size: cover;
+}
+.box4_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box4_content p{
+    color: rgb(112, 45, 175);
+    
+}
+/**box5**/
+.img5{
+    background-image: url("ball.jpg");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    background-size: cover;
+}
+.box4_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box5_content p{
+    color: rgb(112, 45, 175);
+    
+}
+/**box6**/
+.img6{
+    background-image: url("jacket.jpg");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    background-size: cover;
+}
+.box6_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box6_content p{
+    color: rgb(112, 45, 175);
+    
+}
+/**box7**/
+.img7{
+    background-image: url("jersey.jpg");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    background-size: cover;
+}
+.box7_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box7_content p{
+    color: rgb(112, 45, 175);
+    
+}
+/**box8**/
+.img8{
+    background-image: url("boxing.webp");
+    height: 300px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    background-size: cover;
+}
+.box8_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box8_content p{
+    color: rgb(112, 45, 175);
+    
+}
+/** footer**/
+footer{
+    margin-top: 00px;
+}
+.footer-panel1{
+    background-color: rgb(113, 117, 135);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(15, 115, 154);
+
+}
+.footer-panel2{
+    background-color: rgb(49, 49, 58);
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+   
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+     display: block;
+     font-size: 0.9rem;
+     margin-top: 10px;
+     color: #DDDDDD;
+     font-weight: 500;
+}
+.foot-panel3{
+    background-color: rgb(49, 49, 58);
+    color:white;
+    height:60px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    gap: 18px;
+     padding: 15px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     
+     
+    
+} 
+.a1 button{
+    
+    background-color: transparent;
+     color: #DDDDDD;
+     cursor: pointer;
+     font-size: 15px;
+     border: 1px solid #545b61;
+      padding: 8px 16px; 
+}
+.a2 button{
+ background-color: transparent;
+ color: #DDDDDD;
+ cursor: pointer;
+ font-size: 15px;
+ border: 1px solid #545b61;
+ padding: 8px 16px;
+} 
+.a3 button{
+     background-color: transparent;
+      color: #DDDDDD;
+      cursor: pointer;
+      font-size:15px;
+      border: 1px solid #545b61;
+      padding: 8px 16px;
+}
+.footer {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  background-color: rgb(24, 16, 32);
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-top: 10px;
+  color: #999;
+}   
+    
+    
+
+
+
